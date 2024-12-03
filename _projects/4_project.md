@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Embroidery of Light
-description: Luminescent Flexible Materials for Traditional Craftsmanship
+title: 光之刺绣
+description: 柔性发光材料在传统手工艺中的应用
 img: assets/img/Embroidery/title.jpg
 importance: 1
 category: Design Projects
@@ -11,8 +11,9 @@ category: Design Projects
 *Teamwork: **Ziqi Liu**, Yao Lu, Xuezhu Wang*  
 *Advisor: Haipeng Mi*  
 <br>
-This work is part of a collaboration project with [Mercedes-Benz, Beijing](https://group.mercedes-benz.com/careers/about-us/locations/location-detail-page-5184.html). In this project, we explored the application forms and interaction design of emerging smart materials in automotive interiors, including textile sensors, smart materials, 4D materials, and dynamic materials.  
-In this work, we explored the potential application of [a new type of flexible luminescent material](https://www.nature.com/articles/s41586-021-03295-8) in traditional **embroidery** techniques, as well as its possible uses in automotive cabin interactions.
+这项工作是与[梅赛德斯-奔驰，北京](https://group.mercedes-benz.com/careers/about-us/locations/location-detail-page-5184.html)的合作项目的一部分。在这个项目中，我们探索了新兴智能材料在汽车内饰中的应用形式和交互设计，包括纺织传感器、智能材料、4D材料和动态材料。
+
+在这项工作中，我们探讨了[一种新型柔性发光材料](https://www.nature.com/articles/s41586-021-03295-8)在传统**刺绣**技术中的潜在应用，以及它在汽车座舱交互中的可能用途。
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -21,9 +22,9 @@ In this work, we explored the potential application of [a new type of flexible l
 </div>
 
 <br>
-## Pattern Design and Embroidery Sample
+## 图样设计与小样制作
 
-We designed three different types of patterns, including functional pattern, traditional embroidery pattern, traditional weaving pattern. Additionally, we created embroidery samples with flexible luminescent materials using traditional embroidery and weaving techniques.
+我们设计了三种不同类型的图案，包括功能性图案、传统刺绣图案和传统编织图案。此外，我们还使用传统的刺绣和编织技艺，利用柔性发光材料制作了刺绣样品。
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -69,10 +70,9 @@ We designed three different types of patterns, including functional pattern, tra
 </div>
 
 <br>
-## Lighting Control and Circuit Implementation
+## 光效控制和电路实现
 
-Due to the requirement of alternating high-voltage, low-current conditions, we chose to connect the flexible luminescent material in series with a field-effect transistor (FET), with an ESP32 controller to control the brightness of the threads.
-
+由于需要高电压、低电流的交流电源驱动，我们选择将柔性发光材料与场效应晶体管（FET）串联与电源连接，并使用ESP32控制器来调节线材的亮度。
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Embroidery/circuit.jpg" title="example image" class="img-fluid rounded" %}
@@ -83,10 +83,11 @@ Due to the requirement of alternating high-voltage, low-current conditions, we c
 </div>
 
 <br>
-## Large-Format Interior Prototype Fabrication
+## 汽车内饰设计与实施
 
-We designed and created a glowing embroidered decoration for the interior of a Mercedes-Benz engineering vehicle, which was then installed in the actual vehicle for an effect preview. This served as a feasibility exploration for further exploring interactive features in the future.  
-Due to confidentiality agreements, the final results cannot be displayed. However, here we present some images from the design process.
+我们设计并制作了一个用于梅赛德斯-奔驰工程车内饰的发光刺绣装饰，随后将其安装在实际车辆中进行效果预览。这为未来进一步探索互动功能提供了可行性探索。
+
+由于保密协议的限制，最终结果暂时无法展示。不过，在此我们展示了一些设计过程中的图片。
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -94,7 +95,7 @@ Due to confidentiality agreements, the final results cannot be displayed. Howeve
     </div>
 </div>
 <div class="caption">
-    Sketches of the interior design of the Mercedes-Benz engineering vehicle.
+    草图绘制
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -102,7 +103,7 @@ Due to confidentiality agreements, the final results cannot be displayed. Howeve
     </div>
 </div>
 <div class="caption">
-    Animation of the glowing embroidered decoration in the Mercedes-Benz engineering vehicle.
+    光效设计
 </div>
 
 
@@ -115,6 +116,6 @@ Due to confidentiality agreements, the final results cannot be displayed. Howeve
     </div>
 </div>
 <div class="caption">
-    Installation of the glowing embroidered decoration in the Mercedes-Benz engineering vehicle.
+    组装现场
 </div>
 

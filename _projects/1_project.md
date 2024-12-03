@@ -1,7 +1,7 @@
 ---
 layout: page
 title: COMETIC
-description:  Enhancing Smartphone Eye Tracking with Cursor-Based Interactive Implicit Calibration
+description:  通过基于光标的互动隐式校准增强智能手机眼动追踪
 img: assets/img/COMETIC/title.jpg
 importance: 1
 category: Research Projects
@@ -10,7 +10,7 @@ category: Research Projects
 2024  
 *Chang Liu, Xiangyang Wang, Chun Yu, Yingtian Shi, Chongyang Wang, **Ziqi Liu**, Chen Liang, Yuanchun Shi*  
 <br>
-Limited accuracy of eye tracking on smartphones restricts its use. Existing RGB-camera-based eye tracking systems rely on extensive datasets, which could be improved by continuous fine-tuning using calibration data implicitly collected from user interactions. In this context, we propose COMETIC (Cursor Operation Mediated Eye-Tracking Implicit Calibration), which introduces a cursor-based interaction and utilizes the inherent correlation between cursor and eye movement.
+智能手机上的眼动追踪准确性有限，限制了其应用。现有的基于RGB摄像头的眼动追踪系统依赖于大量的数据集，而这些数据集可以通过利用用户交互中隐式收集的校准数据进行持续微调来改进。在此背景下，我们提出了COMETIC（Cursor Operation Mediated Eye-Tracking Implicit Calibration，基于光标操作的眼动追踪隐式校准），它引入了一种基于光标的交互方式，并利用光标与眼动之间的内在关联。
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -19,9 +19,9 @@ Limited accuracy of eye tracking on smartphones restricts its use. Existing RGB-
 </div>
 
 <br>
-## Eye Tracking on Smartphone 
+## 智能手机上的眼动追踪 
 
-Current smartphone eye tracking faces two main challenges: limited personalization for individual users and difficulty adapting to frequent posture changes. To address these issues, we developed a system that dynamically calibrates eye tracking through implicit user interactions, improving both accuracy and personalization.
+当前智能手机眼动追踪面临两个主要挑战：对个体用户的个性化支持有限，以及难以适应频繁的姿势变化。为了解决这些问题，我们开发了一种通过隐式用户交互动态校准眼动追踪的系统，从而提高了准确性和个性化。
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -32,7 +32,7 @@ Current smartphone eye tracking faces two main challenges: limited personalizati
 <br>
 ## COMETIC  
 
-By filtering valid cursor coordinates as proxies for gaze ground truth and fine-tuning the eye-tracking model with corresponding images, COMETIC enhances accuracy during interaction. Both filtering and fine-tuning utilize pre-trained models and can be further improved with personalized, dynamically updated data.
+通过将有效的光标坐标作为注视真实值的代理，并结合相应的图像对眼动追踪模型进行微调，COMETIC在交互过程中提高了准确性。过滤和微调过程都利用了预训练模型，并且可以通过个性化的、动态更新的数据进一步提升性能。
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -40,7 +40,7 @@ By filtering valid cursor coordinates as proxies for gaze ground truth and fine-
     </div>
 </div>
 <div class="caption">
-    The workflow of COMETIC (Cursor Operation Mediated Eye-Tracking Implicit Calibration)
+    COMETIC的工作流
 </div>
 <div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -51,12 +51,12 @@ By filtering valid cursor coordinates as proxies for gaze ground truth and fine-
     </div>
 </div>
 <div class="caption">
-    Interactions and Model Structures of COMETIC
+    COMETIC的交互和模型架构
 </div>
 
 
 <br>
-## Data Collection Experiment  
+## 数据收集实验  
 
 <div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -67,14 +67,14 @@ By filtering valid cursor coordinates as proxies for gaze ground truth and fine-
     </div>
 </div>
 <div class="caption">
-    Apparatus and Layouts in the Experiment
+    数据收集实验的设备和界面
 </div>
 
 
 <br>
-## Evaluation  
+## 评估  
 
-Results show that COMETIC achieves an average eye-tracking error of 208.04 px (1.2 cm), representing a 49.64% improvement compared to the system without fine-tuning. The analysis reveals that filtering cursor points with an actual gaze distance between 250 and 300 px (1.44 to 1.73 cm) yields the best eye-tracking results.
+结果表明，COMETIC实现了平均眼动追踪误差为208.04像素（1.2厘米），相比于未进行微调的系统提高了49.64%。分析还显示，过滤光标点时，当实际注视距离在250到300像素（1.44到1.73厘米）之间时，能够获得最佳的眼动追踪效果。
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
