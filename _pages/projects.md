@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: 项目
 permalink: /projects/
-description: Use technology for cool and fun stuff.
+description: 当我们思考产品如何更好地与人互动时，科技才真正开始改变生活
 nav: true
 nav_order: 3
 display_categories: [Research Projects, Design Projects]

@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Established a new wedsite for myself! 🥳
+建立了我的中文版个人网页! 🥳

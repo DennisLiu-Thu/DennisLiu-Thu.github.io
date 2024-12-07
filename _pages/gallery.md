@@ -1,6 +1,6 @@
 ---
 layout: page
-title: gallery
+title: 影集
 permalink: /gallery/
 description:
 nav: true
